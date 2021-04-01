@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Render
+{% endblock %}
+
+{% block body %}
+<h1>My View</h1>
+
+{{path}}{{ method }}{{encoding}}{{user}}{{get}}{{headers}}
+
+{% endblock %}
